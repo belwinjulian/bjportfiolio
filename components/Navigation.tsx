@@ -23,7 +23,7 @@ export function Navigation() {
           {/* Logo/Name */}
           <a
             href="#hero"
-            className="text-lg font-bold text-foreground hover:text-primary transition-colors duration-200"
+            className="text-lg font-bold text-foreground hover:text-primary hover:scale-105 transition-all duration-200"
             onClick={handleLinkClick}
           >
             Belwin Julian
@@ -35,7 +35,7 @@ export function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground/70 hover:text-foreground transition-colors duration-200"
+                className="relative text-foreground/70 hover:text-foreground transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-200 hover:after:w-full"
               >
                 {link.label}
               </a>
