@@ -79,10 +79,11 @@ Plans:
   3. Page transitions feel smooth without blocking user interaction
   4. Users with reduced motion preferences see instant transitions instead of animations
   5. Lighthouse Performance score remains 90+ after adding animations
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- (To be created during planning phase)
+- [ ] 04-01-PLAN.md -- Scroll-triggered fade-in animations with Intersection Observer (Wave 1)
+- [ ] 04-02-PLAN.md -- Hero entrance animation, enhanced hover effects, and Lighthouse verification (Wave 2)
 
 ### Phase 5: Launch & Deployment
 **Goal**: Portfolio is tested, optimized, and deployed to production on Vercel
