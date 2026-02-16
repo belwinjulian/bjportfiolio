@@ -30,10 +30,11 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Dark theme applied consistently across all pages with proper contrast ratios
   4. Site displays correctly on mobile, tablet, and desktop screens
   5. Page loads in under 1 second with Lighthouse Performance score 90+
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- (To be created during planning phase)
+- [ ] 01-01-PLAN.md -- Project scaffolding & dark theme system (Wave 1)
+- [ ] 01-02-PLAN.md -- Navigation & hero section with visual verification (Wave 2)
 
 ### Phase 2: Projects Showcase
 **Goal**: Recruiters can view curated projects with live demos, technical context, and working links
@@ -106,7 +107,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Hero | 0/? | Not started | - |
+| 1. Foundation & Hero | 0/2 | Planned | - |
 | 2. Projects Showcase | 0/? | Not started | - |
 | 3. About, Resume & Contact | 0/? | Not started | - |
 | 4. Polish & Performance | 0/? | Not started | - |
