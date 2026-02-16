@@ -1,11 +1,24 @@
+import { Navigation } from '@/components/Navigation'
+import { Hero } from '@/components/Hero'
+
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-foreground mb-2">Belwin Julian</h1>
-        <p className="text-xl text-muted">Full Stack Developer</p>
-        <p className="text-sm text-primary mt-4">Theme system active</p>
-      </div>
-    </main>
+    <>
+      <Navigation />
+      <Hero />
+      {/* Placeholder sections for navigation targets */}
+      <section id="about" className="min-h-screen flex items-center justify-center scroll-mt-20">
+        <p className="text-muted">About section coming soon</p>
+      </section>
+      <section id="projects" className="min-h-screen flex items-center justify-center scroll-mt-20">
+        <p className="text-muted">Projects section coming soon</p>
+      </section>
+      <section id="resume" className="min-h-screen flex items-center justify-center scroll-mt-20">
+        <p className="text-muted">Resume section coming soon</p>
+      </section>
+      <section id="contact" className="min-h-screen flex items-center justify-center scroll-mt-20">
+        <p className="text-muted">Contact section coming soon</p>
+      </section>
+    </>
   )
 }
