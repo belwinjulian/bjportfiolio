@@ -63,10 +63,11 @@ Plans:
   4. User clicks GitHub/LinkedIn links from navigation or footer
   5. User clicks email link that opens their mail client
   6. Search engines display correct title, description, and preview image when portfolio is shared
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- (To be created during planning phase)
+- [ ] 03-01-PLAN.md -- About & Resume section components (Wave 1)
+- [ ] 03-02-PLAN.md -- Footer, SEO metadata, OG image, and page integration (Wave 2)
 
 ### Phase 4: Polish & Performance
 **Goal**: Portfolio feels polished with subtle animations and meets performance benchmarks
