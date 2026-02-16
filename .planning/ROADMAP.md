@@ -46,10 +46,11 @@ Plans:
   3. Each project has clickable links to live demo and GitHub repository
   4. Project images load quickly via WebP format and lazy loading
   5. All demo links work and load functioning applications
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- (To be created during planning phase)
+- [ ] 02-01-PLAN.md -- Project data model, images, and card component (Wave 1)
+- [ ] 02-02-PLAN.md -- Projects section, page integration, and visual verification (Wave 2)
 
 ### Phase 3: About, Resume & Contact
 **Goal**: Recruiters learn who Belwin is, access his resume, and can initiate contact
@@ -108,7 +109,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Hero | 0/2 | Planned | - |
-| 2. Projects Showcase | 0/? | Not started | - |
+| 2. Projects Showcase | 0/2 | Planned | - |
 | 3. About, Resume & Contact | 0/? | Not started | - |
 | 4. Polish & Performance | 0/? | Not started | - |
 | 5. Launch & Deployment | 0/? | Not started | - |
