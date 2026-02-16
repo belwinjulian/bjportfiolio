@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-02-16)
 ## Current Position
 
 Phase: 1 of 5 (Foundation & Hero)
-Plan: 0 of ? in current phase
-Status: Ready to plan
-Last activity: 2026-02-16 — Roadmap created
+Plan: 1 of 2 in current phase
+Status: In progress
+Last activity: 2026-02-16 — Completed plan 01-01 (Foundation & Scaffolding)
 
-Progress: [░░░░░░░░░░] 0%
+Progress: [██░░░░░░░░] 10%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
-- Average duration: - min
-- Total execution time: 0.0 hours
+- Total plans completed: 1
+- Average duration: 3 min
+- Total execution time: 0.05 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| - | - | - | - |
+| 01-foundation-hero | 1 | 3 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: None yet
-- Trend: Not established
+- Last 5 plans: 01-01 (3 min)
+- Trend: Not established (need 3+ plans)
 
 *Updated after each plan completion*
 
@@ -46,6 +46,8 @@ Recent decisions affecting current work:
 - No blog section — Job hunting focus, projects and resume matter more
 - Vercel deployment — Free tier, excellent performance, easy CI/CD
 - Resume: on-page + PDF download — Maximum accessibility for recruiters
+- Manual Next.js scaffolding (01-01) — create-next-app prevented scaffolding into existing directory; manually created identical structure
+- Forced dark mode with next-themes (01-01) — forcedTheme and enableSystem=false ensure dark-only mode
 
 ### Pending Todos
 
@@ -57,6 +59,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-02-16 — Roadmap creation
-Stopped at: Roadmap and STATE.md created, ready for Phase 1 planning
+Last session: 2026-02-16 — Plan 01-01 execution
+Stopped at: Completed 01-01-PLAN.md (Foundation & Scaffolding)
 Resume file: None
