@@ -26,7 +26,7 @@ export function Hero() {
           className="text-xl sm:text-2xl md:text-3xl text-muted mb-6 animate-fade-in-up"
           style={{ animationDelay: '200ms', animationFillMode: 'backwards' }}
         >
-          Full Stack Developer
+          Full Stack Engineer & ML Student
         </p>
 
         {/* Value Proposition */}
@@ -34,9 +34,10 @@ export function Hero() {
           className="text-base sm:text-lg text-foreground/80 max-w-2xl mx-auto leading-relaxed animate-fade-in-up"
           style={{ animationDelay: '300ms', animationFillMode: 'backwards' }}
         >
-          I build scalable web applications with modern technologies. Passionate
-          about clean architecture, intuitive user experiences, and turning
-          complex problems into elegant solutions.
+          I build scalable web applications with modern technologies and AI-powered
+          tools. Georgia Tech MS student seeking new grad opportunities — passionate
+          about clean architecture, attention to detail, and turning complex problems
+          into elegant solutions.
         </p>
 
         {/* CTA Buttons */}

@@ -37,39 +37,51 @@ export default function Resume() {
             </h3>
             <div className="space-y-6">
               <article className="border-l-2 border-border pl-4">
-                <h4 className="text-xl font-medium">Full Stack Developer</h4>
-                <p className="text-foreground/70 mb-2">Company Name | 2023 - Present</p>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
+                  <h4 className="text-xl font-medium">Software Engineer Intern</h4>
+                  <span className="text-foreground/60 text-sm">June 2025 &ndash; August 2025</span>
+                </div>
+                <p className="text-foreground/70 mb-2">SageSure &middot; Jersey City, NJ</p>
                 <ul className="list-disc list-inside space-y-1 text-foreground/80">
                   <li>
-                    Developed and maintained multiple full-stack applications using React, Next.js,
-                    and Node.js, serving over 10,000 daily active users
+                    Shipped a real-time status indicator displaying site availability, cutting
+                    incident-response time 50% by polling the uptime API and surfacing alerts
+                    in the React portal
                   </li>
                   <li>
-                    Implemented comprehensive testing strategies including unit and integration tests,
-                    increasing code coverage from 45% to 85%
+                    Delivered a reusable Breadcrumbs component to the Design System, boosting
+                    developer velocity 30% and improving accessibility across 15+ internal apps
+                    with ARIA labeling and Storybook docs
                   </li>
                   <li>
-                    Collaborated with cross-functional teams to deliver features on time, participating
-                    in agile ceremonies and code reviews
+                    Developed an AI-powered meeting assistant that creates action items from
+                    meetings; presented to 300+ attendees including company executives
                   </li>
                 </ul>
               </article>
 
               <article className="border-l-2 border-border pl-4">
-                <h4 className="text-xl font-medium">Frontend Developer</h4>
-                <p className="text-foreground/70 mb-2">Previous Company | 2021 - 2023</p>
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
+                  <h4 className="text-xl font-medium">Software Engineer Intern</h4>
+                  <span className="text-foreground/60 text-sm">June 2024 &ndash; August 2024</span>
+                </div>
+                <p className="text-foreground/70 mb-2">Gigaforce &middot; Sunnyvale, CA</p>
                 <ul className="list-disc list-inside space-y-1 text-foreground/80">
                   <li>
-                    Built responsive user interfaces using React and TypeScript, ensuring cross-browser
-                    compatibility and accessibility standards (WCAG 2.1 AA)
+                    Developed a benchmarking application enabling insurance companies to upload
+                    data and compare against industry averages across 9+ participants
                   </li>
                   <li>
-                    Optimized application performance, reducing initial load time by 40% through code
-                    splitting and lazy loading techniques
+                    Implemented a secure login system using Express, Node, and REST APIs with
+                    password hashing, achieving 100% reduction in unauthorized access incidents
                   </li>
                   <li>
-                    Mentored junior developers through pair programming sessions and technical
-                    documentation, improving team productivity
+                    Built interactive charts with Plotly and Streamlit, resulting in a 60%
+                    increase in user engagement
+                  </li>
+                  <li>
+                    Utilized Pandas DataFrames to analyze user-uploaded data, enhancing
+                    processing speed by 40%
                   </li>
                 </ul>
               </article>
@@ -81,15 +93,27 @@ export default function Resume() {
             <h3 id="education-heading" className="text-2xl font-semibold mb-6">
               Education
             </h3>
-            <article className="border-l-2 border-border pl-4">
-              <h4 className="text-xl font-medium">Bachelor of Science in Computer Science</h4>
-              <p className="text-foreground/70 mb-2">University Name | 2019 - 2023</p>
-              <p className="text-foreground/80">
-                Specialized in software engineering and web development. Graduated with honors.
-                Relevant coursework: Data Structures, Algorithms, Database Systems, Web Development,
-                Software Engineering.
-              </p>
-            </article>
+            <div className="space-y-6">
+              <article className="border-l-2 border-border pl-4">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
+                  <h4 className="text-xl font-medium">M.S. Computer Science (Machine Learning)</h4>
+                  <span className="text-foreground/60 text-sm">In Progress</span>
+                </div>
+                <p className="text-foreground/70">Georgia Institute of Technology</p>
+              </article>
+
+              <article className="border-l-2 border-border pl-4">
+                <div className="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
+                  <h4 className="text-xl font-medium">B.S. Computer Science</h4>
+                  <span className="text-foreground/60 text-sm">Sep 2022 &ndash; May 2026</span>
+                </div>
+                <p className="text-foreground/70 mb-2">Rutgers University &middot; New Brunswick, NJ</p>
+                <p className="text-foreground/80">
+                  GPA: 3.6 &middot; 3x Dean&apos;s List &middot; Coursework: Data Structures, Algorithms
+                  Analysis, Systems Programming, AI, Data Science, Computer Architecture
+                </p>
+              </article>
+            </div>
           </section>
 
           {/* Skills Summary Section */}
@@ -99,32 +123,30 @@ export default function Resume() {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
-                <h4 className="font-medium mb-2">Frontend</h4>
+                <h4 className="font-medium mb-2">Languages</h4>
                 <ul className="space-y-1">
-                  <li className="text-foreground/70">React</li>
-                  <li className="text-foreground/70">Next.js</li>
-                  <li className="text-foreground/70">TypeScript</li>
+                  <li className="text-foreground/70">Python</li>
+                  <li className="text-foreground/70">Java</li>
+                  <li className="text-foreground/70">JavaScript / TypeScript</li>
+                  <li className="text-foreground/70">HTML / CSS</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-medium mb-2">Frameworks</h4>
+                <ul className="space-y-1">
+                  <li className="text-foreground/70">React / Next.js</li>
+                  <li className="text-foreground/70">Node.js / Express</li>
                   <li className="text-foreground/70">Tailwind CSS</li>
-                  <li className="text-foreground/70">HTML/CSS</li>
+                  <li className="text-foreground/70">Plotly / Streamlit</li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-medium mb-2">Backend</h4>
-                <ul className="space-y-1">
-                  <li className="text-foreground/70">Node.js</li>
-                  <li className="text-foreground/70">Express</li>
-                  <li className="text-foreground/70">PostgreSQL</li>
-                  <li className="text-foreground/70">REST APIs</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-medium mb-2">Tools</h4>
+                <h4 className="font-medium mb-2">Tools & AI</h4>
                 <ul className="space-y-1">
                   <li className="text-foreground/70">Git</li>
-                  <li className="text-foreground/70">Docker</li>
                   <li className="text-foreground/70">Vercel</li>
-                  <li className="text-foreground/70">CI/CD</li>
-                  <li className="text-foreground/70">Linux</li>
+                  <li className="text-foreground/70">Claude Code / Cursor</li>
+                  <li className="text-foreground/70">Pandas / NumPy</li>
                 </ul>
               </div>
             </div>

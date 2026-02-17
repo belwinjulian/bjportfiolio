@@ -22,22 +22,20 @@ export default function About() {
           <div>
             <h3 className="text-xl font-semibold mb-4">Background</h3>
             <p className="text-foreground/80 mb-4">
-              I'm a full stack developer with a passion for building modern web applications
-              that combine powerful functionality with intuitive user experiences. My journey
-              in software development has been driven by curiosity and a constant desire to
-              learn and adapt to new technologies.
+              I'm a full stack developer and recent Computer Science graduate from Rutgers
+              University, currently pursuing my M.S. at Georgia Tech with a specialization
+              in Machine Learning.
             </p>
             <p className="text-foreground/80 mb-4">
-              With extensive experience in React, Next.js, and TypeScript, I specialize in
-              creating scalable, performant applications that prioritize accessibility and
-              user experience. I believe that great software should be fast, accessible to
-              everyone, and a joy to use.
+              Through software engineering internships at Gigaforce and SageSure, I've built
+              full stack applications from the ground up — working across frontend interfaces,
+              backend APIs, and everything in between. I enjoy turning complex problems into
+              clean, functional products.
             </p>
             <p className="text-foreground/80">
-              Whether I'm architecting backend systems, crafting pixel-perfect interfaces, or
-              optimizing application performance, I approach every project with attention to
-              detail and a commitment to delivering high-quality solutions that solve real
-              problems.
+              I'm especially excited about the intersection of software engineering and AI,
+              and I actively leverage AI-powered development tools to ship faster and build
+              smarter.
             </p>
           </div>
 
@@ -46,21 +44,27 @@ export default function About() {
             <h3 className="text-xl font-semibold mb-4">Technical Skills</h3>
             <div className="space-y-4">
               <div>
+                <h4 className="font-medium mb-2">Languages</h4>
+                <p className="text-foreground/70">
+                  Python, Java, JavaScript, TypeScript, HTML/CSS
+                </p>
+              </div>
+              <div>
                 <h4 className="font-medium mb-2">Frontend</h4>
                 <p className="text-foreground/70">
-                  React, Next.js, TypeScript, Tailwind CSS, HTML/CSS
+                  React, Next.js, Tailwind CSS
                 </p>
               </div>
               <div>
                 <h4 className="font-medium mb-2">Backend</h4>
                 <p className="text-foreground/70">
-                  Node.js, Express, PostgreSQL, REST APIs
+                  Node.js, REST APIs, PostgreSQL
                 </p>
               </div>
               <div>
-                <h4 className="font-medium mb-2">Tools & Platform</h4>
+                <h4 className="font-medium mb-2">AI & Tools</h4>
                 <p className="text-foreground/70">
-                  Git, Docker, Vercel, CI/CD, Linux
+                  Claude Code, Cursor, Gemini, Vercel, Git
                 </p>
               </div>
             </div>

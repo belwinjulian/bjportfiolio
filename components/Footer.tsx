@@ -23,7 +23,7 @@ export default function Footer() {
               <ul className="flex gap-6">
                 <li>
                   <a
-                    href="mailto:belwin@example.com"
+                    href="mailto:belwinjulian.a@gmail.com"
                     aria-label="Email Belwin Julian"
                     className="text-foreground/70 hover:text-primary hover:scale-105 origin-center transition-all duration-200 text-sm inline-block focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
                   >
