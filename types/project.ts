@@ -7,5 +7,6 @@ export interface Project {
   image: StaticImageData
   techStack: string[]
   demoUrl: string
+  demoLabel?: string
   githubUrl: string
 }

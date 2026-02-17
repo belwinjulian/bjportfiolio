@@ -47,7 +47,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             rel="noopener noreferrer"
             className="text-primary transition-all duration-200 hover:text-primary/80 hover:underline focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
           >
-            Live Demo
+            {project.demoLabel || 'Live Demo'}
             <span className="sr-only"> of {project.title}</span>
           </a>
           <a
