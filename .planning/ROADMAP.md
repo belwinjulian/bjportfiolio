@@ -88,7 +88,7 @@ Plans:
 ### Phase 5: Launch & Deployment
 **Goal**: Portfolio is tested, optimized, and deployed to production on Vercel
 **Depends on**: Phase 4
-**Requirements**: TECH-04
+**Requirements**: TECH-04, TECH-02
 **Success Criteria** (what must be TRUE):
   1. All project demo links verified working on real devices
   2. Site tested and working on mobile (iOS and Android) and desktop browsers
@@ -98,10 +98,11 @@ Plans:
   6. Social media previews display correctly on LinkedIn, Twitter, Facebook
   7. Portfolio deployed to Vercel with custom domain configured
   8. Analytics tracking configured and verified
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- (To be created during planning phase)
+- [ ] 05-01-PLAN.md -- Accessibility hardening, Vercel Analytics, and Lighthouse audit (Wave 1)
+- [ ] 05-02-PLAN.md -- Vercel production deployment and live site verification (Wave 2)
 
 ## Progress
 
@@ -114,7 +115,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
 | 2. Projects Showcase | 0/2 | Planned | - |
 | 3. About, Resume & Contact | 0/? | Not started | - |
 | 4. Polish & Performance | 0/? | Not started | - |
-| 5. Launch & Deployment | 0/? | Not started | - |
+| 5. Launch & Deployment | 0/2 | Not started | - |
 
 ---
 *Roadmap created: 2026-02-16*
