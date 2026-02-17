@@ -23,7 +23,7 @@ export function Navigation() {
           {/* Logo/Name */}
           <a
             href="#hero"
-            className="text-lg font-bold text-foreground hover:text-primary hover:scale-105 transition-all duration-200"
+            className="text-lg font-bold text-foreground hover:text-primary hover:scale-105 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
             onClick={handleLinkClick}
           >
             Belwin Julian
@@ -35,7 +35,7 @@ export function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="relative text-foreground/70 hover:text-foreground transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-200 hover:after:w-full"
+                className="relative text-foreground/70 hover:text-foreground transition-colors duration-200 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-primary after:transition-all after:duration-200 hover:after:w-full focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
               >
                 {link.label}
               </a>
@@ -44,7 +44,7 @@ export function Navigation() {
 
           {/* Mobile Hamburger Button */}
           <button
-            className="md:hidden flex flex-col gap-1.5 w-6 h-6 justify-center items-center"
+            className="md:hidden flex flex-col gap-1.5 w-6 h-6 justify-center items-center focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle navigation menu"
             aria-expanded={isMenuOpen}
@@ -74,7 +74,7 @@ export function Navigation() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-foreground/70 hover:text-foreground transition-colors duration-200"
+                className="text-foreground/70 hover:text-foreground transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
                 onClick={handleLinkClick}
               >
                 {link.label}

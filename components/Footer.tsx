@@ -25,7 +25,7 @@ export default function Footer() {
                   <a
                     href="mailto:belwin@example.com"
                     aria-label="Email Belwin Julian"
-                    className="text-foreground/70 hover:text-primary hover:scale-105 origin-center transition-all duration-200 text-sm inline-block"
+                    className="text-foreground/70 hover:text-primary hover:scale-105 origin-center transition-all duration-200 text-sm inline-block focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
                   >
                     Email
                   </a>
@@ -36,7 +36,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Visit GitHub profile"
-                    className="text-foreground/70 hover:text-primary hover:scale-105 origin-center transition-all duration-200 text-sm inline-block"
+                    className="text-foreground/70 hover:text-primary hover:scale-105 origin-center transition-all duration-200 text-sm inline-block focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
                   >
                     GitHub
                   </a>
@@ -47,7 +47,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Visit LinkedIn profile"
-                    className="text-foreground/70 hover:text-primary hover:scale-105 origin-center transition-all duration-200 text-sm inline-block"
+                    className="text-foreground/70 hover:text-primary hover:scale-105 origin-center transition-all duration-200 text-sm inline-block focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background rounded"
                   >
                     LinkedIn
                   </a>

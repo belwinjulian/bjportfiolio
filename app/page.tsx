@@ -9,11 +9,13 @@ export default function Home() {
   return (
     <>
       <Navigation />
-      <Hero />
-      <About />
-      <Projects />
-      <Resume />
-      <Footer />
+      <main id="main" className="scroll-mt-20">
+        <Hero />
+        <About />
+        <Projects />
+        <Resume />
+        <Footer />
+      </main>
     </>
   )
 }

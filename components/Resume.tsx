@@ -21,7 +21,7 @@ export default function Resume() {
           <a
             href="/resume.pdf"
             download="Belwin_Julian_Resume.pdf"
-            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity font-medium"
+            className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity font-medium focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background"
             aria-label="Download resume as PDF"
           >
             Download PDF
